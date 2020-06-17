@@ -10,7 +10,9 @@ import appdesktop.MODEL.AdministratorModel;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class MainClass {
 

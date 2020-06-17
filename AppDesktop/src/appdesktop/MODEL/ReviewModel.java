@@ -7,7 +7,9 @@ package appdesktop.MODEL;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class ReviewModel {
     

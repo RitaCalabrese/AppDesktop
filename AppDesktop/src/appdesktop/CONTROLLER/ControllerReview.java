@@ -28,7 +28,9 @@ import javax.swing.JTextArea;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class ControllerReview implements ControllerConfig{
     

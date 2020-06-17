@@ -18,7 +18,9 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class ControllerAdmin {
     

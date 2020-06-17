@@ -28,7 +28,9 @@ import javax.swing.*;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class UsersView extends javax.swing.JFrame implements UserInfoView,EventHandler{
 
@@ -240,6 +242,7 @@ public class UsersView extends javax.swing.JFrame implements UserInfoView,EventH
         jPopupMenu1.setFocusable(false);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("DATI UTENTI");
         setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));

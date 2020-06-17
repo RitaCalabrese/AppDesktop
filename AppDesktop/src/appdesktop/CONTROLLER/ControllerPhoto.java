@@ -21,7 +21,9 @@ import javax.swing.DefaultListModel;
 
 /**
  *
- * @author luisa
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class ControllerPhoto implements ControllerConfig {
 

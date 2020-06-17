@@ -5,7 +5,9 @@
  */
 package appdesktop.MODEL;
 
-import java.sql.Date;
+import java.util.Date;
+
+
 
 /**
  *
@@ -56,7 +58,25 @@ public class UserModel {
         this.surname = surname;
         this.email = email;
     }
+    public UserModel(String name,String surname,Integer amountWrittenReviews){
+        this.name = name;
+        this.surname = surname;
+        this.amountWrittenReviews = amountWrittenReviews;
+    }
 
+    public UserModel(String name, String surname, Float averageUserRating) {
+        this.name = name;
+        this.surname = surname;
+        this.averageUserRating = averageUserRating;
+    }
+
+    public UserModel(String name, String surname, Date birthday) {
+        this.name = name;
+        this.surname = surname;
+        this.birthday = birthday;
+    }
+
+    
     
     public String getName() {
         return name;

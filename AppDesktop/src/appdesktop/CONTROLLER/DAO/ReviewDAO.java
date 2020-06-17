@@ -10,7 +10,9 @@ import java.util.List;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public interface ReviewDAO {
     public List<ReviewModel> getReviewsToApprove(String userEmail);

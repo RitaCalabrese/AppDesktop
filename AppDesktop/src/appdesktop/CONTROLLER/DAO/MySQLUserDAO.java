@@ -22,7 +22,9 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class MySQLUserDAO implements UserDAO {
 

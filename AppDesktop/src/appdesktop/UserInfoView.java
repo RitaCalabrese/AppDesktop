@@ -20,7 +20,9 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author luisa
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public interface UserInfoView {
     

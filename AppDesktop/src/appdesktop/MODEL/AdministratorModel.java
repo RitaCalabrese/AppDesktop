@@ -23,6 +23,9 @@ public class AdministratorModel {
         this.birthday = birthday;
     }
 
+    public AdministratorModel() {
+    }
+
     public String getName() {
         return name;
     }

@@ -45,7 +45,7 @@ public class LoginView extends javax.swing.JFrame {
     }
     
      private void scaleImage(){
-        ImageIcon icon = new ImageIcon ("C:\\Users\\Rita\\Desktop\\prog INGSW\\logoApp.png");
+        ImageIcon icon = new ImageIcon(getClass().getResource(("/images/logoApp.png"))) ;
         //scaling
         Image img = icon.getImage();
         Image imgScale = img.getScaledInstance(jLabel4.getWidth(), jLabel4.getHeight(),Image.SCALE_SMOOTH);

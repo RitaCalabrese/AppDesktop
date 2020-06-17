@@ -1,15 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package appdesktop;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class HomePage extends javax.swing.JFrame {
 
@@ -23,7 +21,7 @@ public class HomePage extends javax.swing.JFrame {
     }
     
      private void scaleImage(){
-        ImageIcon icon = new ImageIcon ("C:\\Users\\Rita\\Desktop\\prog INGSW\\logoApp.png");
+        ImageIcon icon = new ImageIcon(getClass().getResource(("/images/logoApp.png")));
         //scaling
         Image img = icon.getImage();
         Image imgScale = img.getScaledInstance(label.getWidth(), label.getHeight(),Image.SCALE_SMOOTH);

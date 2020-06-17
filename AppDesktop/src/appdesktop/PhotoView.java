@@ -33,7 +33,9 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Rita
+ * @author Rita Calabrese
+ * @author Luisa Esposito
+ * 
  */
 public class PhotoView extends javax.swing.JFrame implements UserInfoView, EventHandler {
 DefaultListModel model;
@@ -134,6 +136,7 @@ List<UserModel> users = new ArrayList<>();
         jButton2.setText("jButton2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("FOTO UTENTI");
 
         jPanel1.setLayout(null);
 

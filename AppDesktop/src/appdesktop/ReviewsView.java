@@ -28,9 +28,8 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Rita
- * @author Luisa
- * @author Piero
+ * @author Rita Calabrese
+ * @author Luisa Esposito
  * 
  */
 public class ReviewsView extends javax.swing.JFrame implements UserInfoView,EventHandler{
@@ -168,6 +167,7 @@ public class ReviewsView extends javax.swing.JFrame implements UserInfoView,Even
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("RECENSIONI");
 
         jPanel1.setLayout(null);
 
